@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🛍️ ShopMind AI — E-Commerce Customer Support System
 
 An AI-powered e-commerce support chatbot using NLP, Flask, and MySQL.
@@ -124,3 +125,7 @@ git add .
 git commit -m "feat: describe your change"
 git push origin main
 ```
+=======
+# ai-faq-chatbot
+AI-powered FAQ chatbot using NLP, Flask, and BERT
+>>>>>>> 2cb8385eb1c7f7540df06501e24f52425e2e61a2
