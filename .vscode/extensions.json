@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "ms-python.debugpy",
+    "ritwickdey.liveserver",
+    "formulahendry.auto-rename-tag",
+    "esbenp.prettier-vscode",
+    "PKief.material-icon-theme",
+    "mtxr.sqltools",
+    "mtxr.sqltools-driver-mysql"
+  ]
+}

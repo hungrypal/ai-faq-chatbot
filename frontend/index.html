@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ShopMind AI — Smart Shopping Assistant</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+<!-- Background Orbs -->
+<div class="bg-orbs">
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+</div>
+
+<div class="app">
+
+  <!-- ══════════════ WELCOME SCREEN ══════════════ -->
+  <div class="welcome-screen" id="welcomeScreen">
+    <div class="bot-mascot">🛍️</div>
+    <h1 class="welcome-title">AI Shopping<br/>Assistant</h1>
+    <p class="welcome-sub">
+      Your intelligent shopping companion — search products,
+      track orders, handle returns, and shop smarter with NLP-powered AI.
+    </p>
+    <div class="features-row">
+      <span class="feat-chip">🔍 Smart Search</span>
+      <span class="feat-chip">📦 Order Tracking</span>
+      <span class="feat-chip">🔄 Returns</span>
+      <span class="feat-chip">⚡ Instant Answers</span>
+    </div>
+    <button class="btn-start" id="startBtn">Get Started →</button>
+  </div>
+
+  <!-- ══════════════ CHAT SCREEN ══════════════════ -->
+  <div class="chat-screen" id="chatScreen">
+
+    <!-- Header -->
+    <header class="chat-header">
+      <div class="header-avatar">🤖</div>
+      <div class="header-info">
+        <div class="header-name">ShopMind AI</div>
+        <div class="header-status">
+          <div class="status-dot"></div>
+          Online · NLP-powered
+        </div>
+      </div>
+      <button class="header-icon" id="resetBtn" title="New Chat">🔄</button>
+      <button class="header-icon" title="Settings">⚙️</button>
+    </header>
+
+    <!-- Suggestion Chips -->
+    <div class="suggest-bar" id="suggestBar"></div>
+
+    <!-- Messages -->
+    <div class="messages" id="messages"></div>
+
+    <!-- Input Bar -->
+    <div class="input-bar">
+      <div class="input-wrap">
+        <textarea
+          class="chat-input"
+          id="chatInput"
+          rows="1"
+          placeholder="Ask me anything…"
+        ></textarea>
+        <button class="mic-btn" title="Voice input">🎙️</button>
+      </div>
+      <button class="send-btn" id="sendBtn">➤</button>
+    </div>
+
+  </div><!-- /chat-screen -->
+</div><!-- /app -->
+
+<script src="js/api.js"></script>
+<script src="js/chat.js"></script>
+</body>
+</html>
